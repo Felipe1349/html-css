@@ -43,6 +43,7 @@ header{
     text-align: center;
     padding-top: 30px;
 }
+
 header > h1{
     margin-bottom: 20px;
     color: white;
@@ -51,6 +52,7 @@ header > h1{
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.288);
 }
+
 header > p{
     font-family: var(--font-padrao);
     font-size: 1.2em;
@@ -68,6 +70,7 @@ nav{
     padding: 10px;  
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.288);
 }
+
 nav a{
     color: var(--cor1);
     text-decoration: none;
@@ -81,6 +84,7 @@ nav a:hover{
     background-color: var(--cor3);
     border-radius: 5px;
 }
+
 main{
     min-width: 320px;
     max-width: 1000px;
@@ -99,6 +103,7 @@ main h1{
     font-weight: normal;
     font-size: 1.8;
 }
+
 main h2{
     color: var(--cor4);
     font-family: var(--font-android);
@@ -129,6 +134,7 @@ main a{
     padding: 2px 6px;
     border-radius: 5px;
 }
+
 main a:hover{
     text-decoration: underline;
     color: var(--cor4);
@@ -137,6 +143,7 @@ main a:hover{
 main img{
     width: 100%;
 }
+
 main img.pequena{
     max-width: 350px;
     display: block;
@@ -165,6 +172,7 @@ aside{
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
+
 aside > h3{
     background-color: var(--cor4);
     color: white;
@@ -178,16 +186,19 @@ aside > ul{
     list-style-position: inside;
     columns: 2;
 }
+
 aside a{
     background-color: var(--cor2);
 }
+
 footer{
     background-color: var(--cor5);
     color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-}-
+}
+
 footer a{
     color: white;
     font-weight: bolder;
