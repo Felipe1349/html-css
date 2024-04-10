@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com Imagem</title>   
+    <style>
+        div{
+            height: 80vh;
+            display: flex;         
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando carga e Imagem</h1>
+    <hr>
+    <p>Abaixo você ver uma imagem que está na mesma pasta.</p>
+    <div><img src="img/banner.png" alt="Paisagem"></div>
+    
+    <p>Podemos carregar imagens da sub-pastas.</p>
+    <hr>
+    <img src="img/banner.png" alt="Banner">
+    <p>Também podemos carregar uma imagem da internet copiando a URL da imagem</p>
+    <hr>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" alt="URL da imagem">
+</body>
+</html>

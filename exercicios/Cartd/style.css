@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+#card{
+    width: 20em;
+    height: 30em;
+    background-color: rgb(14, 130, 213);
+    border-radius: 20px;
+    
+}
+
+.foto{
+    width: 100px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.foto:hover{
+    width: 150px;
+
+}
