@@ -8,7 +8,7 @@
     --cor2:#013C8B;
     --cor3:#5CE1E6;
     --cor4:#ACD1F2;
-    --cor5:#f2f2f2;
+    --cor5:#FFF;
 
     --font-padrao: Arial, Verdana, Helvetica, Sans-serif;
     --font-destaque:"Poppins", sans-serif;
@@ -47,6 +47,18 @@ body{
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+}
+
+h2.titulo{
+    color: var(--cor5);
+    font-size: 42px;
+    text-align: center;
+    font-family: var(--font-destaque);
+
+}
+
+h2.titulo span{
+    color: var(--cor3);
 }
 /* ESTILO DO CABEÇALHO*/
 
@@ -102,6 +114,7 @@ section.topo-do-site .flex{
 }
 .foto{
     height: 450px;
+    padding-bottom: 20px;
 }
 
 .topo-do-site h1{
@@ -118,3 +131,67 @@ section.topo-do-site .flex{
     color: var(--cor5);
     margin: 40px 0px;
 }
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    color: var(--cor5);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+
+    width: 400px;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #5ce1e6d0;
+}
+.especialidades-box i{
+    font-size: 70px;
+    color: var(--cor3);
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 38px;
+}
+.especialidades .especialidades-box p{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*ESTILO DO SOBRE*/
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    gap: 60px;
+}
+
+.foto2{
+    margin: 20px;
+    height: 500px;
+    border-radius: 20px;
+}
+
