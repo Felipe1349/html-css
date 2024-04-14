@@ -60,6 +60,11 @@ h2.titulo{
 h2.titulo span{
     color: var(--cor3);
 }
+
+button:hover{
+    box-shadow: 0px 0px 8px var(--cor3);
+    transform: scale(1.05);
+}
 /* ESTILO DO CABEÇALHO*/
 
 
@@ -94,10 +99,7 @@ header nav ul li {
 
 
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px var(--cor3);
-    transform: scale(1.05);
-}
+
 
 /*FIM DA ESTILIZAÇÃO DO CABEÇALHO*/
 
@@ -158,7 +160,6 @@ section.especialidades .flex{
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
-
     width: 400px;
 }
 .especialidades .especialidades-box:hover{
@@ -181,17 +182,97 @@ section.especialidades .flex{
 
 /*ESTILO DO SOBRE*/
 
+
+.foto-sobre{
+    height: 500px;
+    border-radius: 20px;
+}
 section.sobre{
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.sobre .flex{
+    align-items: center;
     gap: 60px;
 }
+.sobre .txt-sobre{
+    color: var(--cor5);
+}
 
-.foto2{
-    margin: 20px;
-    height: 500px;
-    border-radius: 20px;
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: var(--cor3);
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    background-color: var(--cor3);
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    transition: .2s;
+    color: var(--cor1);
+}
+
+/* ESTILO PORTFÓLIO */
+
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 20px 10px #02065959;
+}
+
+section.portfolio .flex{
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-position: 100% 0%;
+    background-size: cover;
+    transition: 10s;
+    border-radius: 30px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overley{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #020649cb;
+    border: 0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor5);
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.overley:hover{
+    opacity: 0;
 }
 
