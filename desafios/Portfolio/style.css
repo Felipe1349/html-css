@@ -49,6 +49,11 @@ body{
     transition: .2s;
 }
 
+button:hover{
+    box-shadow: 0px 0px 8px var(--cor3);
+    transform: scale(1.05);
+}
+
 h2.titulo{
     color: var(--cor5);
     font-size: 42px;
@@ -61,10 +66,7 @@ h2.titulo span{
     color: var(--cor3);
 }
 
-button:hover{
-    box-shadow: 0px 0px 8px var(--cor3);
-    transform: scale(1.05);
-}
+
 /* ESTILO DO CABEÇALHO*/
 
 
